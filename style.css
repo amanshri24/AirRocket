@@ -1,3 +1,7 @@
+@font-face{
+    font-family: aeonike;
+    src:url(./620e5796f94823392179d875_AeonikPro-Regular.woff);
+}
 *{
     margin: 0;
     padding: 0;
