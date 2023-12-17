@@ -369,13 +369,23 @@ html,body{
     display: none;
 }
 #partnerdrag .partners{
-    font-size: 1.1vw;
+    border: 0.1vh solid rgba(76, 68, 68, 0.306);
+    padding: 4vw;
+    font-size: 1.3vw;
     width: 33%;
+    border-radius: 200px;
 }
 #partnerdrag>.partners{
-    margin: 0 6vw;
+    margin: 0 4vw;
+}
+.partners .partners-img{
+    width: 8vw;
+}
+.partners-img img{
+    width: 11vw;
 }
 .partners p{
+    font-size: 1.1vw;
     margin-top: 5vw;
 }
 #work{
@@ -728,7 +738,7 @@ button:hover{
     border-right: 0.1vh solid rgba(255, 255, 255, 0.329);
     height: 25vh;
     width: 100%;
-    border-bottom: 1px solid white;
+    border-bottom: 0.1vh solid rgba(255, 255, 255, 0.329);
 }
 .multisection .topic{
     z-index: 99999999;
@@ -743,8 +753,8 @@ button:hover{
 .multisection .topic .arrow{
     overflow: hidden;
     position: relative;
-    height: 5vw;
-    width: 5vw;
+    height: 7vw;
+    width: 7vw;
     background-color: black;
     border: 0.1vh solid rgba(255, 255, 255, 0.306);
     border-radius: 50%;
@@ -755,7 +765,7 @@ button:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 2vw;
+    font-size: 4vw;
 }
 #rightarrow{
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.7s;
@@ -763,7 +773,7 @@ button:hover{
     top: 140%;
     left: -10%;
     transform: translate(-50%,-50%);
-    font-size: 2vw;
+    font-size: 4vw;
 }
 .opening{
     transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
@@ -813,6 +823,19 @@ button:hover{
     background-color: white;
     border-radius: 50%;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.partner #partnercont{
+    width: 70%;
+    font-size: 6vw;
+}
+#work{
+    border-bottom: 1px solid rgba(76, 72, 72, 0.306);
+}
+.workdesc{
+    height: 50vh;
+}
+.alltext{
+    height: 50vh;
 }
 #lastpage{
     display: flex;
